@@ -6,11 +6,13 @@ import pandas as pd
 import numpy as np
 import catboost as cat
 
-
 # %%
 train = pd.read_csv('./Geochemistry Data/CNS_gas_train.csv')
 
 train.head()
+
+#%%
+test = pd.read_csv('Geochemistry Data/CNS_')
 
 #%%
 train['Country'].unique()
